@@ -6,6 +6,7 @@ class App {
 
     fun hello() {
         println(svc2.hello("SVC2"))
+        println(svc2.helloSvc1())
     }
 
 }
